@@ -1,0 +1,44 @@
+﻿Build started 2012/7/19 17:12:54.
+     1>Project "D:\SkyDrive\project\Algorithm\Algorithm\Algorithm.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Algorithm.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\skydrive\project\algorithm\algorithm\fibonacciheap.hpp(187): warning C4244: 'initializing' : conversion from 'float' to 'const int', possible loss of data
+                 d:\skydrive\project\algorithm\algorithm\fibonacciheap.hpp(181) : while compiling class template member function 'void FibonacciHeap<T>::consolidate(void)'
+                 with
+                 [
+                     T=int
+                 ]
+                 d:\skydrive\project\algorithm\algorithm\main.cpp(6) : see reference to class template instantiation 'FibonacciHeap<T>' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>d:\skydrive\project\algorithm\algorithm\fibonacciheap.hpp(20): warning C4355: 'this' : used in base member initializer list
+                 d:\skydrive\project\algorithm\algorithm\fibonacciheap.hpp(19) : while compiling class template member function 'FibonacciHeap<T>::node::node(T)'
+                 with
+                 [
+                     T=int
+                 ]
+                 d:\skydrive\project\algorithm\algorithm\main.cpp(17) : see reference to class template instantiation 'FibonacciHeap<T>::node' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>d:\skydrive\project\algorithm\algorithm\fibonacciheap.hpp(20): warning C4355: 'this' : used in base member initializer list
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SkyDrive\project\Algorithm\Debug\Algorithm.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Algorithm.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\SkyDrive\project\Algorithm\Debug\Algorithm.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\SkyDrive\project\Algorithm\Debug\Algorithm.lib" /MACHINE:X86 Debug\main.obj
+         LINK : D:\SkyDrive\project\Algorithm\Debug\Algorithm.exe not found or not built by the last incremental link; performing full link
+         Algorithm.vcxproj -> D:\SkyDrive\project\Algorithm\Debug\Algorithm.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\SkyDrive\project\Algorithm\Debug\Algorithm.exe;#1" /manifest Debug\Algorithm.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Algorithm.unsuccessfulbuild".
+         Touching "Debug\Algorithm.lastbuildstate".
+     1>Done Building Project "D:\SkyDrive\project\Algorithm\Algorithm\Algorithm.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.19
