@@ -1,5 +1,12 @@
 project (Algorithm)
-set(SRC_LIST main.cpp fibonacci_heap.hpp)
+set(SRC_LIST main.cpp 			fibonacci_heap.hpp
+			 bst.hpp			bTrees.cpp	
+			 countingSort.h		sort.h
+			 fibonacciHeap.hpp	findMaxSubArray.h
+			 hash.h				heapSort.h
+			 priorityQueue.h	quickSort.h
+			 radixSort.h		radomizedSelect.h
+			 rbTree.hpp			main.h)
 message(STATUS "this is BiNARY dir : ${PROJECT_BINARY_DIR}")
 message(STATUS "this is SOURCE dir : ${PROJECT_SOURCE_DIR}")
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
