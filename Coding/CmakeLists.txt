@@ -1,0 +1,7 @@
+project (Algorithm)
+set(SRC_LIST main.cpp fibonacci_heap.hpp)
+message(STATUS "this is BiNARY dir : ${PROJECT_BINARY_DIR}")
+message(STATUS "this is SOURCE dir : ${PROJECT_SOURCE_DIR}")
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
+set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
+add_executable(algorithm ${SRC_LIST})
