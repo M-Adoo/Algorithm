@@ -2,7 +2,7 @@
 //filename: fibonacciHeaps.h
 //Author:   Adoo
 //Date:		2012/7/16
-//Description:Implement Fibonacci Heaps by C++
+//Description:Implement Fibonacci Heaps in C++
 //-------------------------------------------------------------------------
 #ifndef FIBONACCIHEAP_HPP
 #define FIBONACCIHEAP_HPP
@@ -158,8 +158,8 @@ private:
 	}
 	
 	node* extract_node(node* pn){
-		//ÌáÈ¡½áµã£¬¶Ô½á¹¹À´Ëµ°²È«¡£
-		//µ«Ö»ÊÇ¼òµ¥µÄÓÃÆäÓÒÐÖµÜ´úÌæËü¡£
+		//ï¿½ï¿½È¡ï¿½ï¿½ï¿½ã£¬ï¿½Ô½á¹¹ï¿½ï¿½Ëµï¿½ï¿½È«ï¿½ï¿½
+		//ï¿½ï¿½Ö»ï¿½Ç¼òµ¥µï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÖµÜ´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		if (pn == NULL)
 			return NULL;
 		if(pn->parent != NULL){
@@ -201,7 +201,7 @@ private:
 		int degree= pn->degree;
 		while (pn != A[degree]){
 			if(A[degree] != NULL){
-				//ÈôÓöµ½¶ÈÊýÏàÍ¬µÄ½áµã£¬Ôò½«AÖÐµÄ¸Ã½áµãÁ´½Óµ½µü´úÆ÷½áµãÉÏ¡£
+				//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬ï¿½Ä½ï¿½ï¿½ã£¬ï¿½ï¿½ï¿½ï¿½Aï¿½ÐµÄ¸Ã½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¡ï¿½
 				if (A[degree]->value < pn->value){
 					std::swap(A[degree],pn);
 				}
